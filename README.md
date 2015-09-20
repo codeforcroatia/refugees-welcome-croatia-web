@@ -1,4 +1,7 @@
-# Refugees Welcome Croatia web
+# Refugees Welcome Croatia web - Coming Soon #Deprecated
+
+Branch Coming-Soon is deprecated with: 
+https://github.com/codeforcroatia/refugees-welcome-croatia-web/issues/11
 
 Informational web portal to help Refugees and Organizers in Croatia
 
