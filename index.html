@@ -32,17 +32,24 @@
 	<div class="main_content">
 		<p>EN - Many organizations and volunteers are working hard to get this Welcome page up and running soon. Visit us again on Tuesday!</p>
 		<p>HR - Mnoge organizacije i volonteri rade kako bi što prije pokrenuli ovaj Dobrodošli portal za javnost. Posjetite nas ponovno ovdje u utorak!</p>	
-		<p class="bolder">Tempus fugit.</p>
 	</div>
 	
-	<!-- <div class="form">
+	<div class="form">
 		<div class="field_content">
-			<p>subscribe to further updates</p><span>}</span>
-			<input class="field" type="text" value="Enter Your Email Address" onfocus="if(this.value=='Enter Your Email Address') this.value='';" onblur="if(this.value=='' || this.value==' ') this.value='Enter Your Email Address';" />
-		</div>
-		<input class="submit" type="button" value="submit" />
 
-	</div> -->
+			<!-- subscribe on public mailing list -->
+			
+			<form method="post" action="http://welcome.cms.hr/mailman/subscribe/info_welcome.cms.hr">
+				<p>subscribe to further updates</p><span>}</span>
+				<input name="email" class="field" type="text" value="Enter Your Email Address" onfocus="if(this.value=='Enter Your Email Address') this.value='';" onblur="if(this.value=='' || this.value==' ') this.value='Enter Your Email Address';" />
+		</div>
+		<input name="email-button" class="submit" type="submit" value="submit" />
+			</form>
+	</div>
+
+		<div class="main_content">
+		<p class="bolder">Tempus fugit.</p>
+	</div>
 
 </div>
 
